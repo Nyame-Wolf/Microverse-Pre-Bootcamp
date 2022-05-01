@@ -17,6 +17,7 @@ body {
     flex-direction: column;
     margin: 0;
 }
+
 nav {
     width: 100%;
     background-color: #1AAC04;
@@ -62,3 +63,42 @@ nav {
 h1 {
     text-align: center;
 }
+
+#main {
+    display: flex;
+    flex: 1;
+}
+
+#main>article {
+    flex: 2;
+}
+
+#main>aside {
+    flex: 0 0 20vw;
+    background: beige;
+}
+
+.previews {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.previews>img {
+    width: 200px;
+}
+
+footer {
+    display: flex;
+    background: #9704AC;
+    height: 10vh;
+}
+
+header,
+footer,
+article,
+nav,
+aside {
+    padding: 1em;
+}
+
