@@ -209,7 +209,6 @@ aside {
 .socials {
     display: flex;
     flex: 2;
-    justify-content: right;
 }
 
 .fa {
